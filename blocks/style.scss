@@ -48,6 +48,7 @@ $hovercolor : #fff;
 
 body{
 	color: #fff;
+	background:#000;
 }
 a{
 	color: #fff;
@@ -59,6 +60,10 @@ q{
 quotes:'\201e'  '\201c';
 font-family: Georgia serif;
 font-size:1.5em;
+}
+
+.hide{
+	display:none !important;
 }
 
 .b-num-list__item{

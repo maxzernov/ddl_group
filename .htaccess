@@ -1,0 +1,16 @@
+php_value date.timezone "Europe/Moscow"
+
+RewriteEngine On
+
+RewriteRule ^en$ index_en.html [L]
+RewriteRule ^en/$ index_en.html [L]
+RewriteRule ^ru$ index.html [L]
+RewriteRule ^ru/$ index.html [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !.*\.(ico|gif|jpg|jpeg|png|js|css)
+RewriteRule ^([^?]*) index.php?_route_=$1 [L,QSA]
+<IfModule mod_charset.c>
+  CharsetDisable On
+</IfModule>
+AddDefaultCharset UTF-8

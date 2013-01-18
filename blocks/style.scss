@@ -44,17 +44,20 @@
 $menucolor : #dac56e;
 $menuBorderColor : $menucolor;
 $hovercolor : #fff;
+$tUnitV : 17px;
 
 
 body{
 	color: #fff;
-	background:#000;
+	background:#fff;
+	line-height: $tUnitV;
 }
 a{
 	color: #fff;
 }
 p,ul{
-	 margin-bottom: 7px;
+	 margin-bottom: $tUnitV;
+	 text-align:justify;
 }
 q{
 quotes:'\201e'  '\201c';
@@ -162,7 +165,7 @@ width:615px;
 }
 
 .b-section{
-	 padding-top: 7px;
+	 padding-top: $tUnitV;
 	 width: 615px;
 }
 
@@ -222,17 +225,19 @@ and (orientation : landscape) {
 
 	body{
 		color: #fff;
+		line-height:$tUnitV;
 	}
 	a{
 		color: #fff;
 	}
 	p,ul{
-		 margin-bottom: 7px;
+		 margin-bottom: $tUnitV;
+		 text-align:justify;
 	}
 	q{
-	quotes:'\201e'  '\201c';
-	font-family: Georgia serif;
-	font-size:1.5em;
+		quotes:'\201e'  '\201c';
+		font-family: Georgia serif;
+		font-size:1.5em;
 	}
 	.b-logo{
 		background:url(../images/logo.png) no-repeat;
@@ -285,7 +290,7 @@ and (orientation : landscape) {
 	}
 
 	.b-tab__content{
-	width:615px;
+		width:615px;
 	}
 
 	.b-tabs__menu{
@@ -325,7 +330,7 @@ and (orientation : landscape) {
 	}
 
 	.b-section{
-		 padding-top: 7px;
+		 padding-top: $tUnitV;
 		 width: 615px;
 	}
 

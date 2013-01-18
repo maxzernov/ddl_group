@@ -46,13 +46,15 @@
 =========================================== */
 body {
   color: #fff;
-  background: #000; }
+  background: #fff;
+  line-height: 17px; }
 
 a {
   color: #fff; }
 
 p, ul {
-  margin-bottom: 7px; }
+  margin-bottom: 17px;
+  text-align: justify; }
 
 q {
   quotes: "\201e" "\201c";
@@ -147,7 +149,7 @@ q {
   top: 80px; }
 
 .b-section {
-  padding-top: 7px;
+  padding-top: 17px;
   width: 615px; }
 
 .b-feature-list {
@@ -195,13 +197,15 @@ q {
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
   body {
-    color: #fff; }
+    color: #fff;
+    line-height: 17px; }
 
   a {
     color: #fff; }
 
   p, ul {
-    margin-bottom: 7px; }
+    margin-bottom: 17px;
+    text-align: justify; }
 
   q {
     quotes: "\201e" "\201c";
@@ -289,7 +293,7 @@ q {
     top: 80px; }
 
   .b-section {
-    padding-top: 7px;
+    padding-top: 17px;
     width: 615px; }
 
   .b-feature-list {

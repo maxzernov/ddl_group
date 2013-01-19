@@ -80,10 +80,11 @@ q {
 
 /* bg image */
 .b-bg-images {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
-  overflow: hidden;
+  width: 100%;
+  height: auto;
   z-index: -1; }
 
 .b-bg-images_img {
@@ -224,10 +225,11 @@ q {
 
   /* bg image */
   .b-bg-images {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
-    overflow: hidden;
+    width: 100%;
+    height: auto;
     z-index: -1; }
 
   .b-bg-images_img {

@@ -86,10 +86,12 @@ font-size:1.5em;
 }
 /* bg image */
 .b-bg-images {
-	position:fixed;
+	
+	position:absolute;
 	top:0;
 	left:0;
-	overflow:hidden;
+	width:100%;
+	height:auto;
 	z-index:-1;
 }
 .b-bg-images_img{
@@ -251,10 +253,11 @@ and (orientation : landscape) {
 	}
 	/* bg image */
 	.b-bg-images {
-		position:fixed;
+		position:absolute;
 		top:0;
 		left:0;
-		overflow:hidden;
+		width:100%;
+		height:auto;
 		z-index:-1;
 	}
 	.b-bg-images_img{

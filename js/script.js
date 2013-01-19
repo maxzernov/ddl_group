@@ -114,13 +114,12 @@ $(document).ready(function(){
 
    };
 
+	$(window).load(function(){
+	   resizeImg('.js-resizable-img');
+	});
+	$(window).resize(function(){
+		 resizeImg('.js-resizable-img');
+	});
+
 });
 
-$(window).load(function(){
-
-   resizeImg('.js-resizable-img');
-   $(window).resize(function(){
-	 resizeImg('.js-resizable-img');
-
-   });
-});

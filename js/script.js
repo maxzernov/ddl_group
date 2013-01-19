@@ -84,25 +84,25 @@ $(document).ready(function(){
             //console.log(iw, ih);
             if (iw > ih) {
                 var imageRatio = iw/ih;
-                $(this).css("width",$(window).width() + "px");
-                $(this).css("height",Math.round($(window).width() * (1/imageRatio)));
+                $(this).css("width", $(window).width() + "px");
+                $(this).css("height", Math.round($(window).width() * (1/imageRatio)));
 
                 var newIh = Math.round($(window).width() * (1/imageRatio));
 
                 if(newIh < $(window).height()) {
                     var imageRatio = ih/iw;
-                    $(this).css("height",$(window).height());
-                    $(this).css("width",Math.round($(window).height() * (1/imageRatio)));
+                    $(this).css("height", $(window).height());
+                    $(this).css("width", Math.round($(window).height() * (1/imageRatio)));
                 }
             } else {
                 var imageRatio = ih/iw;
-                $(this).css("height",$(window).height());
-                $(this).css("width",Math.round($(window).height() * (1/imageRatio)));
+                $(this).css("height", $(window).height());
+                $(this).css("width", Math.round($(window).height() * (1/imageRatio)));
             }
         } else {
             var imageRatio = ih/iw;
-            $(this).css("height",$(window).height());
-            $(this).css("width",Math.round($(window).height() * (1/imageRatio)));
+            $(this).css("height", $(window).height());
+            $(this).css("width", Math.round($(window).height() * (1/imageRatio)));
         }
 
 	$(this).css({
@@ -114,11 +114,13 @@ $(document).ready(function(){
 
    };
 
+});
+
+$(window).load(function(){
+
    resizeImg('.js-resizable-img');
    $(window).resize(function(){
 	 resizeImg('.js-resizable-img');
 
    });
-
 });
-

@@ -47,6 +47,7 @@
 h2{
 	font-size:14px;
 	margin-bottom:7px;
+	font-weight:normal;
 }
 body {
   color: #fff;
@@ -113,6 +114,7 @@ q {
   display: none; }
 
 .b-tab__header {
+	font-size:21px;
   height: 80px;
   line-height: 80px;
   border-bottom: 1px solid #dac56e;
@@ -258,6 +260,7 @@ q {
     display: none; }
 
   .b-tab__header {
+	font-size:21px;
     height: 80px;
     line-height: 80px;
     border-bottom: 1px solid #dac56e;
@@ -362,6 +365,7 @@ q {
     margin-top: 80px; }
 
   .b-tab__header {
+	font-size:21px;
     position: absolute;
     top: 0;
     left: 270px;
@@ -431,6 +435,7 @@ q {
     margin-top: 80px; }
 
   .b-tab__header {
+	font-size:21px;
     position: absolute;
     top: 0;
     left: 270px;

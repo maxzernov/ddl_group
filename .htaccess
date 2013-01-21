@@ -2,10 +2,10 @@ php_value date.timezone "Europe/Moscow"
 
 RewriteEngine On
 
-RewriteRule ^en$ index_en.html [L]
-RewriteRule ^en/$ index_en.html [L]
-RewriteRule ^ru$ index.html [L]
-RewriteRule ^ru/$ index.html [L]
+RewriteRule ^en$ index.html [L]
+RewriteRule ^en/$ index.html [L]
+RewriteRule ^ru$ index_ru.html [L]
+RewriteRule ^ru/$ index_ru.html [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_URI} !.*\.(ico|gif|jpg|jpeg|png|js|css)

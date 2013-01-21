@@ -44,6 +44,10 @@
 /*===========================================
 	Main
 =========================================== */
+h2{
+	font-size:14px;
+	margin-bottom:7px;
+}
 body {
   color: #fff;
   background: #fff;
@@ -157,7 +161,7 @@ q {
   margin-left: 15px; }
 
 .b-feature-list__item {
-  list-style-type: disc;
+  list-style-type: circle;
   list-style-position: inside;
   margin-bottom: 5px; }
 

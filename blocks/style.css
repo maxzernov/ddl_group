@@ -80,10 +80,10 @@ q {
 
 /* bg image */
 .b-bg-images {
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: auto;
   height: auto;
   z-index: -1; }
 
@@ -93,7 +93,7 @@ q {
   position: relative; }
 
 .b-bg-images_img.tab1 {
-  display: inline; }
+  display: block; }
 
 /* tabs */
 .b-tabs {
@@ -225,7 +225,7 @@ q {
 
   /* bg image */
   .b-bg-images {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;

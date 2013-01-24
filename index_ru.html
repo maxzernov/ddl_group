@@ -134,46 +134,44 @@
 <div class="b-tabs__tab" id="tab6">
 		<h2 class="b-tab__header">Контакты</h2>
 		<div class="b-section">
-			<form action="" class="b-contact-form">
+			<form id="feedback" action="/mailSender.php" method="post" class="b-contact-form">
 				<fieldset>
 					<legend><h2>Связаться с нами</h2></legend>
 					<div class="b-form-item">
 						<label class="b-form-item__label">
 							<span class="b-form-item__label_name">Имя</span>
-							<input class="b-form-item__input-text" type="text"/>
+							<input class="b-form-item__input-text" name="name" type="text"/>
 						</label>
-						<span class="b-form-item__error">Field can't be empty</span>
+						<span id="error_name"  class="b-form-item__error hide">Field can't be empty</span>
 					</div>
 
 					<div class="b-form-item">
 						<label class="b-form-item__label">
 							<span class="b-form-item__label_name">Компания</span>
-							<input class="b-form-item__input-text" type="text"/>
+							<input class="b-form-item__input-text" name="company" type="text"/>
 						</label>
-						<span class="b-form-item__error">Field can't be empty</span>
 					</div>
 
 					<div class="b-form-item">
 						<label class="b-form-item__label">
 							<span class="b-form-item__label_name">Телефон</span>
-							<input class="b-form-item__input-text" type="text"/>
+							<input class="b-form-item__input-text" name="phone" type="text"/>
 						</label>
-						<span class="b-form-item__error">Field can't be empty</span>
 					</div>
 
 					<div class="b-form-item">
 						<label class="b-form-item__label">
 							<span class="b-form-item__label_name">Email</span>
-							<input class="b-form-item__input-text" type="text"/>
+							<input class="b-form-item__input-text" name="email" type="text"/>
 						</label>
-						<span class="b-form-item__error">Field can't be empty</span>
+						<span id="error_email" class="b-form-item__error hide">Field can't be empty</span>
 					</div>
 
 					<div class="b-form-item">
-						<span class="b-form-item__error">Field can't be empty</span>
+						<span id="error_message" class="b-form-item__error hide">Field can't be empty</span>
 						<label class="b-form-item__label">
 							<span class="b-form-item__label_name">Сообщение</span>
-							<textarea id="contact-message" class="b-form-item__textarea" name="" rows="10" cols="30"></textarea>
+							<textarea id="contact-message" class="b-form-item__textarea" name="message" rows="10" cols="30"></textarea>
 						</label>
 					</div>
 
@@ -204,6 +202,7 @@
  </div>
   </div> 
 <script src="/js/jquery-1.8.3.min.js"></script>
+  <script src="/js/jquery.form.js"></script>
 <script src="/js/script.js"></script>
 </body>
 </html>

@@ -134,7 +134,55 @@
 <div class="b-tabs__tab" id="tab6">
 		<h2 class="b-tab__header">Контакты</h2>
 		<div class="b-section">
-		<p>Раздел скоро появится.</p>
+			<form action="" class="b-contact-form">
+				<fieldset>
+					<legend>Связаться с нами</legend>
+					<div class="b-form-item">
+						<label class="b-form-item__label">
+							<span class="b-form-item__label_name">Имя</span>
+							<input type="text"/>
+						</label>
+						<span class="b-form-item__error">Field can't be empty</span>
+					</div>
+
+					<div class="b-form-item">
+						<label class="b-form-item__label">
+							<span class="b-form-item__label_name">Компания</span>
+							<input type="text"/>
+						</label>
+						<span class="b-form-item__error">Field can't be empty</span>
+					</div>
+
+					<div class="b-form-item">
+						<label class="b-form-item__label">
+							<span class="b-form-item__label_name">Телефон</span>
+							<input type="text"/>
+						</label>
+						<span class="b-form-item__error">Field can't be empty</span>
+					</div>
+
+					<div class="b-form-item">
+						<label class="b-form-item__label">
+							<span class="b-form-item__label_name">Email</span>
+							<input type="text"/>
+						</label>
+						<span class="b-form-item__error">Field can't be empty</span>
+					</div>
+
+					<div class="b-form-item">
+						<label class="b-form-item__label">
+							<span class="b-form-item__label_name">Сообщение</span>
+							<textarea id="contact-message" name="" rows="10" cols="30"></textarea>
+						</label>
+						<span class="b-form-item__error">Field can't be empty</span>
+					</div>
+
+					<div class="b-form-item">
+						<input type="submit" value="Отправить"/>
+					</div>
+				</fieldset>
+			</form>
+
 			<dl class="b-contacts-list hide">
 			   <dt class="b-contact-list__item">phone:</dt>
 			   <dd class="b-contact-list__item">phone number</dd>

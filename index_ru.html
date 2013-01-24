@@ -136,11 +136,11 @@
 		<div class="b-section">
 			<form action="" class="b-contact-form">
 				<fieldset>
-					<legend>Связаться с нами</legend>
+					<legend><h2>Связаться с нами</h2></legend>
 					<div class="b-form-item">
 						<label class="b-form-item__label">
 							<span class="b-form-item__label_name">Имя</span>
-							<input type="text"/>
+							<input class="b-form-item__input-text" type="text"/>
 						</label>
 						<span class="b-form-item__error">Field can't be empty</span>
 					</div>
@@ -148,7 +148,7 @@
 					<div class="b-form-item">
 						<label class="b-form-item__label">
 							<span class="b-form-item__label_name">Компания</span>
-							<input type="text"/>
+							<input class="b-form-item__input-text" type="text"/>
 						</label>
 						<span class="b-form-item__error">Field can't be empty</span>
 					</div>
@@ -156,7 +156,7 @@
 					<div class="b-form-item">
 						<label class="b-form-item__label">
 							<span class="b-form-item__label_name">Телефон</span>
-							<input type="text"/>
+							<input class="b-form-item__input-text" type="text"/>
 						</label>
 						<span class="b-form-item__error">Field can't be empty</span>
 					</div>
@@ -164,21 +164,21 @@
 					<div class="b-form-item">
 						<label class="b-form-item__label">
 							<span class="b-form-item__label_name">Email</span>
-							<input type="text"/>
+							<input class="b-form-item__input-text" type="text"/>
 						</label>
 						<span class="b-form-item__error">Field can't be empty</span>
 					</div>
 
 					<div class="b-form-item">
+						<span class="b-form-item__error">Field can't be empty</span>
 						<label class="b-form-item__label">
 							<span class="b-form-item__label_name">Сообщение</span>
-							<textarea id="contact-message" name="" rows="10" cols="30"></textarea>
+							<textarea id="contact-message" class="b-form-item__textarea" name="" rows="10" cols="30"></textarea>
 						</label>
-						<span class="b-form-item__error">Field can't be empty</span>
 					</div>
 
 					<div class="b-form-item">
-						<input type="submit" value="Отправить"/>
+						<input class="b-form-item__submit"type="submit" value="Отправить"/>
 					</div>
 				</fieldset>
 			</form>

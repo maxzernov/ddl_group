@@ -453,3 +453,67 @@ q {
     line-height: 23px;
     vertical-align: middle; } }
 
+/*=====================================
+ * 	Contact form
+ *====================================*/
+.b-contact-form{
+
+
+}
+
+fieldset{
+	border: none; }
+
+
+.b-form-item{
+	position:relative;
+	padding-bottom:20px;
+	overflow:hidden;
+	height:auto;
+}
+
+.b-form-item__label{
+	display:block;
+
+}
+
+.b-form-item__label_name{
+	display:block;
+	margin-bottom: 7px;
+	width:20%;
+	float:left;
+	margin-right: 10%;
+}
+
+.b-form-item__error{
+	color:red;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-size: .75em;
+}
+
+.b-form-item__input-text{
+	padding:5px 10px;
+	border:none;
+	color:#fff;
+	background:rgba(0,0,0,.35);
+	width:60%;
+	float:right;
+}
+
+.b-form-item__textarea{
+	width:60%;
+	padding:5px 10px;
+	color:#fff;
+	background:rgba(0,0,0,.35);
+	border:none;
+	float:right;
+}
+
+.b-form-item__submit{
+margin-left:36.5%;
+width:100px;
+display:block;
+padding: 5px 10px;
+}

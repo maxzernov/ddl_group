@@ -1,3 +1,8 @@
+ /*================================
+ *	logo: #1d9ad6
+ *	old: #dac56e
+ *================================*/
+
 /*==================================
 *	Enchancments
 ===================================*/
@@ -498,6 +503,7 @@ fieldset{
 	border:none;
 	color:#fff;
 	background:rgba(0,0,0,.35);
+	border:1px solid #1d9ad6;
 	width:60%;
 	float:right;
 }
@@ -507,13 +513,14 @@ fieldset{
 	padding:5px 10px;
 	color:#fff;
 	background:rgba(0,0,0,.35);
-	border:none;
+	border:1px solid #1d9ad6;
 	float:right;
+	resize:none;
 }
 
 .b-form-item__submit{
-margin-left:36.5%;
-width:100px;
-display:block;
-padding: 5px 10px;
+	margin-left:36.5%;
+	width:100px;
+	display:block;
+	padding: 5px 10px;
 }

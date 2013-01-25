@@ -556,3 +556,7 @@ fieldset{
 	top:40%;
 	display:none;
 }
+.b-form__legend{
+	margin-bottom:21px;
+	color:inherit;
+}

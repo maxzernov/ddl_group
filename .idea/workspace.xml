@@ -34,25 +34,16 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="177" column="39" selection-start="11643" selection-end="11643" vertical-scroll-proportion="-37.083332">
+            <state line="177" column="39" selection-start="11625" selection-end="11625" vertical-scroll-proportion="-37.083332">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index_.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index_.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="133" column="59" selection-start="9681" selection-end="9681" vertical-scroll-proportion="-39.9">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".htaccess" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".htaccess" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="23" selection-start="64" selection-end="64" vertical-scroll-proportion="0.05586592">
+            <state line="2" column="23" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -61,8 +52,11 @@
       <file leaf-file-name="index_ru.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index_ru.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="136" column="12" selection-start="9400" selection-end="11163" vertical-scroll-proportion="-1.2884616">
-              <folding />
+            <state line="138" column="12" selection-start="9400" selection-end="9822" vertical-scroll-proportion="-1.2884616">
+              <folding>
+                <marker date="1359096620529" expanded="true" signature="9496:9822" placeholder="..." />
+                <marker date="1359096620529" expanded="true" signature="9575:9822" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,7 +64,16 @@
       <file leaf-file-name="script.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="27" selection-start="218" selection-end="226" vertical-scroll-proportion="0.0">
+            <state line="25" column="0" selection-start="687" selection-end="687" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="57c934e085ef.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/57c934e085ef.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -94,6 +97,7 @@
         <option value="$PROJECT_DIR$/index_ru.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/57c934e085ef.html" />
       </list>
     </option>
   </component>
@@ -169,6 +173,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -201,10 +206,10 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32938388" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2736967" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24969324" sideWeight="0.6706161" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24969324" sideWeight="0.72630334" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -300,37 +305,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index_.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="59" selection-start="9681" selection-end="9681" vertical-scroll-proportion="-39.9">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="27" selection-start="218" selection-end="226" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index_ru.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="136" column="12" selection-start="9400" selection-end="11163" vertical-scroll-proportion="-1.2884616">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="177" column="39" selection-start="11643" selection-end="11643" vertical-scroll-proportion="-37.083332">
+        <state line="177" column="39" selection-start="11625" selection-end="11625" vertical-scroll-proportion="-37.083332">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="23" selection-start="64" selection-end="64" vertical-scroll-proportion="0.05586592">
+        <state line="2" column="23" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index_ru.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="138" column="12" selection-start="9400" selection-end="9822" vertical-scroll-proportion="-1.2884616">
+          <folding>
+            <marker date="1359096620529" expanded="true" signature="9496:9822" placeholder="..." />
+            <marker date="1359096620529" expanded="true" signature="9575:9822" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="687" selection-end="687" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/57c934e085ef.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

@@ -7,7 +7,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
- $mailTo = 'scsware@ya.ru';
+ $mailTo = 'info@ddl-group.ru';
  $subject = 'Обратная связь DDL-Group';
  $message = '';
  $hdrs = "Content-type: text/plain; charset = utf-8";

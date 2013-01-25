@@ -57,7 +57,14 @@ h2{
 body {
   color: #fff;
   background: #fff;
-  line-height: 17px; }
+  line-height: 17px;
+  letter-spacing:.02em;
+
+  -moz-hyphens:auto;
+  -webkit-hyphens:auto;
+  -o-hyphens:auto;
+  hyphens:auto;
+  }
 
 a {
   color: #fff; }
@@ -523,4 +530,22 @@ fieldset{
 	width:100px;
 	display:block;
 	padding: 5px 10px;
+}
+
+.b-alert-box{
+	background:rgba(0,0,0,.75);
+	background-image:url(../images/success.png);
+	background-repeat: no-repeat;
+	background-position: center 25px;
+	text-align:center;
+	width:;
+	height:;
+	padding:80px 20px 10px;
+	border:1px solid rgba(255,255,255,.1);
+	border-radius:5px;
+	display: inline-block;
+	position: absolute;
+	left:50%;
+	top:40%;
+	display:none;
 }

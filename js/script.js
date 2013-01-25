@@ -37,7 +37,12 @@ $(document).ready(function(){
 
     function showResponse(responseText, statusText, xhr, $form)  {
         if(responseText=='Message has been sent.'){
-            alert('Сообщение отправлено');
+		$(".b-alert-box")
+			.first()
+			.fadeIn(666)
+			.delay(1333)
+			.fadeOut(999);
+		$("#feedback .b-form-item__input-text, #feedback textarea").val('');
         }
     }
 
@@ -155,8 +160,11 @@ $(document).ready(function(){
 
    };
 
-   resizeImg('.js-resizable-img');
-   $(window).resize(function(){
+
+	$(window).load(function(){
+	   resizeImg('.js-resizable-img');
+	});
+	$(window).resize(function(){
 	 resizeImg('.js-resizable-img');
 
    });
